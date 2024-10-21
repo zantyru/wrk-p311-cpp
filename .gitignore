@@ -33,6 +33,10 @@ bld/
 # Visual Studio 2017+ auto generated files
 Generated\ Files/
 .vs/**/FileContentIndex/
+.vs/**/*.db-shm
+.vs/**/*.db-wal
+.vs/**/*.opendb
+.vs/**/*.backup.json
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
