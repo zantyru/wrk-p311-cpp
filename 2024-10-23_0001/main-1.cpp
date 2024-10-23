@@ -12,7 +12,7 @@ public:
     }
 
 private:
-    int _value{ 0 };
+    int _value;  //! Плохо! Поле не инициализировано!
 };
 
 

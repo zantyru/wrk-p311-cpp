@@ -6,13 +6,17 @@ using std::cin;
 class Number
 {
 public:
+    Number()
+        : _value{ 0 }
+    { }
+
     int GetValue()
     {
         return _value;
     }
 
 private:
-    int _value{ 0 };
+    int _value;
 };
 
 
