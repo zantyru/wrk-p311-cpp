@@ -25,15 +25,6 @@ public:
 };
 
 
-void PrintPoint2D(Point2D p)
-{
-    cout << "PrintPoint2D | Begin\n";
-    cout << "\t.X: " << p.X << "\n";
-    cout << "\t.Y: " << p.Y << "\n";
-    cout << "PrintPoint2D | End\n";
-}
-
-
 int main()
 {
     cout << "Step 0\n";
@@ -51,13 +42,6 @@ int main()
 
     cout << "Step 4\n";
     cout << "p2.X: " << p2.X << "\n";
-
-    cout << "Step 5\n";
-    PrintPoint2D(p1);
-
-    cout << "Step 6\n";
-    p1 = p2;  // Эта операция уже никак не связана с конструкторами.
-              // В консоле будет пусто.
 
     return 0;
 }
