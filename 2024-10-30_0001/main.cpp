@@ -47,6 +47,21 @@ public:
         return drainedVolume;
     }
 
+    int TransfuseFrom(Bottle& other)
+    {
+        int availableVolume{ _totalVolume - _liquidVolume };
+        int transfusedVolume{
+            (other._liquidVolume < availableVolume)
+            ? other._liquidVolume
+            : availableVolume
+        };
+
+        other._liquidVolume -= transfusedVolume;
+        _liquidVolume += transfusedVolume;
+
+        return transfusedVolume;
+    }
+
 private:
     int _totalVolume;
     int _liquidVolume;
@@ -55,41 +70,86 @@ private:
 
 int main()
 {
-    Bottle b{ 10 };
+    {
+        cout << "\n\nExample one\n";
 
-    cout << "\n[1]\n";
-    cout << "b total volume: " << b.GetTotalVolume() << "\n";
-    cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
+        Bottle b{ 10 };
 
-    int pouredVolume = b.Pour(7);
+        cout << "\n[1]\n";
+        cout << "b total volume: " << b.GetTotalVolume() << "\n";
+        cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
 
-    cout << "\n[2]\n";
-    cout << "b total volume: " << b.GetTotalVolume() << "\n";
-    cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
-    cout << "b poured volume: " << pouredVolume << "\n";
+        int pouredVolume = b.Pour(7);
 
-    pouredVolume = b.Pour(4);
+        cout << "\n[2]\n";
+        cout << "b total volume: " << b.GetTotalVolume() << "\n";
+        cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
+        cout << "b poured volume: " << pouredVolume << "\n";
 
-    cout << "\n[3]\n";
-    cout << "b total volume: " << b.GetTotalVolume() << "\n";
-    cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
-    cout << "b poured volume: " << pouredVolume << "\n";
+        pouredVolume = b.Pour(4);
 
-    int drainedVolume = b.Drain(1);
+        cout << "\n[3]\n";
+        cout << "b total volume: " << b.GetTotalVolume() << "\n";
+        cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
+        cout << "b poured volume: " << pouredVolume << "\n";
 
-    cout << "\n[4]\n";
-    cout << "b total volume: " << b.GetTotalVolume() << "\n";
-    cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
-    cout << "b drained volume: " << drainedVolume << "\n";
+        int drainedVolume = b.Drain(1);
 
-    drainedVolume = b.Drain(100);
+        cout << "\n[4]\n";
+        cout << "b total volume: " << b.GetTotalVolume() << "\n";
+        cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
+        cout << "b drained volume: " << drainedVolume << "\n";
 
-    cout << "\n[5]\n";
-    cout << "b total volume: " << b.GetTotalVolume() << "\n";
-    cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
-    cout << "b drained volume: " << drainedVolume << "\n";
+        drainedVolume = b.Drain(100);
 
+        cout << "\n[5]\n";
+        cout << "b total volume: " << b.GetTotalVolume() << "\n";
+        cout << "b liquid volume: " << b.GetLiquidVolume() << "\n";
+        cout << "b drained volume: " << drainedVolume << "\n";
+    }
     
+    {
+        cout << "\n\nExample two\n";
+
+        Bottle bigBottle{ 10 };
+        Bottle smallBottle{ 3 };
+
+        cout << "\n[1]\n";
+        cout << "bigBottle: "
+            << bigBottle.GetLiquidVolume() << "/"
+            << bigBottle.GetTotalVolume() << "\n"
+        ;
+        cout << "smallBottle: "
+            << smallBottle.GetLiquidVolume() << "/"
+            << smallBottle.GetTotalVolume() << "\n"
+        ;
+        
+        int pouredVolume = bigBottle.Pour(5);
+
+        cout << "\n[2]\n";
+        cout << "bigBottle: "
+            << bigBottle.GetLiquidVolume() << "/"
+            << bigBottle.GetTotalVolume() << "\n"
+            ;
+        cout << "smallBottle: "
+            << smallBottle.GetLiquidVolume() << "/"
+            << smallBottle.GetTotalVolume() << "\n"
+            ;
+        cout << "poured volume: " << pouredVolume << "\n";
+
+        int transfusedVolume = smallBottle.TransfuseFrom(bigBottle);
+
+        cout << "\n[3]\n";
+        cout << "bigBottle: "
+            << bigBottle.GetLiquidVolume() << "/"
+            << bigBottle.GetTotalVolume() << "\n"
+            ;
+        cout << "smallBottle: "
+            << smallBottle.GetLiquidVolume() << "/"
+            << smallBottle.GetTotalVolume() << "\n"
+            ;
+        cout << "transfused volume: " << transfusedVolume << "\n";
+    }
 
     return 0;
 }
