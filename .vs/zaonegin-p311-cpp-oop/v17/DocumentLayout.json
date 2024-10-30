@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D355266-7E0B-407A-B376-180AB9C42E0F}|2024-10-28_0001\\2024-10-28_0001.vcxproj|D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-10-28_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D355266-7E0B-407A-B376-180AB9C42E0F}|2024-10-28_0001\\2024-10-28_0001.vcxproj|solutionrelative:2024-10-28_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0B45D310-D4C4-4592-8D43-9435BE09C9C7}|2024-10-30_0001\\2024-10-30_0001.vcxproj|D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-10-30_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0B45D310-D4C4-4592-8D43-9435BE09C9C7}|2024-10-30_0001\\2024-10-30_0001.vcxproj|solutionrelative:2024-10-30_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-10-28_0001\\main.cpp",
-              "RelativeDocumentMoniker": "2024-10-28_0001\\main.cpp",
-              "ToolTip": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-10-28_0001\\main.cpp",
-              "RelativeToolTip": "2024-10-28_0001\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-10-30_0001\\main.cpp",
+              "RelativeDocumentMoniker": "2024-10-30_0001\\main.cpp",
+              "ToolTip": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-10-30_0001\\main.cpp*",
+              "RelativeToolTip": "2024-10-30_0001\\main.cpp*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T13:51:53.13Z",
+              "WhenOpened": "2024-10-30T14:29:00.745Z",
               "EditorCaption": ""
             }
           ]
