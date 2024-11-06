@@ -42,16 +42,34 @@ void ShowCountdownCounter(const CountdownCounter& c)
 
 int main()
 {
-    CountdownCounter c1(3);
-
-    do
     {
-        ShowCountdownCounter(c1);
-        c1.DoTick();
-    }
-    while (c1.GetValue() != 0);
+        cout << "\n___[1]___\n";
 
-    ShowCountdownCounter(c1);
+        CountdownCounter counter(3);
+
+        do
+        {
+            ShowCountdownCounter(counter);
+            counter.DoTick();
+        } while (counter.GetValue() != 0);
+
+        ShowCountdownCounter(counter);
+    }
+
+    {
+        cout << "\n___[2]___\n";
+
+        CountdownCounter counter(-4);
+
+        do
+        {
+            ShowCountdownCounter(counter);
+            counter.DoTick();
+        } while (counter.GetValue() != 0);
+
+        ShowCountdownCounter(counter);
+    }
+
 
     return 0;
 }
