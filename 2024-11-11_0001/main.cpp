@@ -3,119 +3,68 @@ using std::cout;
 using std::cin;
 
 
-class Bottle
+class Square
 {
 public:
-    explicit Bottle(int totalVolume = 3)
-        : _totalVolume{ totalVolume }
-        , _liquidVolume{ 0 }
+    explicit Square(float sideSize = 1)
+        : _sideSize{ sideSize }
+    {}
+
+    float GetWidth() const
     {
-        if (_totalVolume < 0) _totalVolume = 0;
+        return _sideSize;
     }
 
-    int GetTotalVolume()
+    float GetHeight() const
     {
-        return _totalVolume;
+        return _sideSize;
     }
 
-    int GetLiquidVolume()
+    float GetArea() const
     {
-        return _liquidVolume;
+        return _sideSize * _sideSize;
     }
 
-    int Pour(int volume)
+    Square operator+(const Square& other) const // *this + other
     {
-        int pouredVolume{};
-        int availableVolume{ _totalVolume - _liquidVolume };
-
-        if (volume < 0) volume = 0;
-
-        pouredVolume = (volume < availableVolume) ? volume : availableVolume;
-        _liquidVolume += pouredVolume;
-
-        return pouredVolume;
+        float resultArea = GetArea() + other.GetArea();
+        
+        return Square(sqrt(resultArea));
     }
 
-    int Drain(int volume)
+    Square operator+(int otherArea) const
     {
-        int drainedVolume{};
+        float resultArea = GetArea() + otherArea;
 
-        if (volume < 0) volume = 0;
-
-        drainedVolume = (volume < _liquidVolume) ? volume : _liquidVolume;
-        _liquidVolume -= drainedVolume;
-
-        return drainedVolume;
-    }
-
-    int TransfuseFrom(Bottle& other)
-    {
-        int availableVolume{ _totalVolume - _liquidVolume };
-        int transfusedVolume{
-            (other._liquidVolume < availableVolume)
-            ? other._liquidVolume
-            : availableVolume
-        };
-
-        other._liquidVolume -= transfusedVolume;
-        _liquidVolume += transfusedVolume;
-
-        return transfusedVolume;
-    }
-
-    int TransfuseTo(Bottle& other)
-    {
-        return other.TransfuseFrom(*this);
-    }
-
-    int operator<<(Bottle& other)
-    {
-        return TransfuseFrom(other);
-    }
-
-    int operator>>(Bottle& other)
-    {
-        return other << *this;
+        return Square(sqrt(resultArea));
     }
 
 private:
-    int _totalVolume;
-    int _liquidVolume;
+    float _sideSize;
 };
 
 
 int main()
 {
-    Bottle b1(10);
-    Bottle b2(3);
+    Square sqOne(4);
+    Square sqTwo(2);
+    cout << "squareOne.GetArea(): " << sqOne.GetArea() << " (sideSize: " << sqOne.GetWidth() << ")\n";
+    cout << "squareTwo.GetArea(): " << sqTwo.GetArea() << " (sideSize: " << sqTwo.GetWidth() << ")\n";
+    cout << "-----\n\n";
 
-    b1.Pour(7);
-    b2.Pour(1);
+    sqOne = sqOne + 10;
+    cout << "squareOne = squareOne + 10;\n";
+    cout << "squareOne.GetArea(): " << sqOne.GetArea() << " (sideSize: " << sqOne.GetWidth() << ")\n";
+    cout << "squareTwo.GetArea(): " << sqTwo.GetArea() << " (sideSize: " << sqTwo.GetWidth() << ")\n";
+    cout << "-----\n\n";
 
-    // 1
-    cout
-        << "\n\n----\n"
-        << "b1: " << b1.GetLiquidVolume() << "/" << b1.GetTotalVolume() << "\n"
-        << "b2: " << b2.GetLiquidVolume() << "/" << b2.GetTotalVolume() << "\n"
-    ;
-    int trasfusedVolume = b1 << b2;
-    cout << "b1 << b2: " << trasfusedVolume << "\n";
+    Square sqThree = sqTwo + sqOne;
+    cout << "Square squareThree = squareTwo + squareOne;\n";
+    cout << "squareOne.GetArea(): " << sqOne.GetArea() << " (sideSize: " << sqOne.GetWidth() << ")\n";
+    cout << "squareTwo.GetArea(): " << sqTwo.GetArea() << " (sideSize: " << sqTwo.GetWidth() << ")\n";
+    cout << "squareThree.GetArea(): " << sqThree.GetArea() << " (sideSize: " << sqThree.GetWidth() << ")\n";
+    cout << "-----\n\n";
 
-    // 2
-    cout
-        << "\n\n----\n"
-        << "b1: " << b1.GetLiquidVolume() << "/" << b1.GetTotalVolume() << "\n"
-        << "b2: " << b2.GetLiquidVolume() << "/" << b2.GetTotalVolume() << "\n"
-    ;
-    trasfusedVolume = b1 >> b2;
-    cout << "b1 >> b2: " << trasfusedVolume << "\n";
-
-    // 3
-    cout
-        << "\n\n----\n"
-        << "b1: " << b1.GetLiquidVolume() << "/" << b1.GetTotalVolume() << "\n"
-        << "b2: " << b2.GetLiquidVolume() << "/" << b2.GetTotalVolume() << "\n"
-    ;
 
     return 0;
 };
