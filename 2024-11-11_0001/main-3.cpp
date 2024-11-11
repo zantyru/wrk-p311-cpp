@@ -32,7 +32,7 @@ public:
         return Square(sqrt(resultArea));
     }
 
-    Square operator+(int otherArea) const
+    Square operator+(float otherArea) const
     {
         float resultArea = GetArea() + otherArea;
 
