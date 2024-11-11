@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FC06930-C3AD-43F3-AAD0-924A04C8FB7D}|2024-11-06_0002-v2\\2024-11-06_0002-v2.vcxproj|D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-06_0002-v2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2FC06930-C3AD-43F3-AAD0-924A04C8FB7D}|2024-11-06_0002-v2\\2024-11-06_0002-v2.vcxproj|solutionrelative:2024-11-06_0002-v2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{86C77783-C4D4-46CC-A08A-50C5DAA63AC8}|2024-11-11_0001\\2024-11-11_0001.vcxproj|D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86C77783-C4D4-46CC-A08A-50C5DAA63AC8}|2024-11-11_0001\\2024-11-11_0001.vcxproj|solutionrelative:2024-11-11_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-06_0002-v2\\main.cpp",
-              "RelativeDocumentMoniker": "2024-11-06_0002-v2\\main.cpp",
-              "ToolTip": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-06_0002-v2\\main.cpp",
-              "RelativeToolTip": "2024-11-06_0002-v2\\main.cpp",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAC4AAAATAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main.cpp",
+              "RelativeDocumentMoniker": "2024-11-11_0001\\main.cpp",
+              "ToolTip": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main.cpp*",
+              "RelativeToolTip": "2024-11-11_0001\\main.cpp*",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-06T15:36:54.076Z",
+              "WhenOpened": "2024-11-11T14:22:18.628Z",
               "EditorCaption": ""
             }
           ]
