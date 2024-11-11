@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86C77783-C4D4-46CC-A08A-50C5DAA63AC8}|2024-11-11_0001\\2024-11-11_0001.vcxproj|D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{86C77783-C4D4-46CC-A08A-50C5DAA63AC8}|2024-11-11_0001\\2024-11-11_0001.vcxproj|solutionrelative:2024-11-11_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main-4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2024-11-11_0001\\main-4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2024-11-11_0001\\main-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main.cpp",
-              "RelativeDocumentMoniker": "2024-11-11_0001\\main.cpp",
-              "ToolTip": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main.cpp*",
-              "RelativeToolTip": "2024-11-11_0001\\main.cpp*",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEAAAABXAAAAAAAAAA==",
+              "Title": "main-4.cpp",
+              "DocumentMoniker": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main-4.cpp",
+              "RelativeDocumentMoniker": "2024-11-11_0001\\main-4.cpp",
+              "ToolTip": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main-4.cpp",
+              "RelativeToolTip": "2024-11-11_0001\\main-4.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-11T15:15:28.934Z",
+              "WhenOpened": "2024-11-11T15:54:14.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main-3.cpp",
+              "DocumentMoniker": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main-3.cpp",
+              "RelativeDocumentMoniker": "2024-11-11_0001\\main-3.cpp",
+              "ToolTip": "D:\\DEV\\Code\\cpp\\zaonegin-p311-cpp-oop\\2024-11-11_0001\\main-3.cpp",
+              "RelativeToolTip": "2024-11-11_0001\\main-3.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-11T15:40:37.11Z",
               "EditorCaption": ""
             }
           ]
