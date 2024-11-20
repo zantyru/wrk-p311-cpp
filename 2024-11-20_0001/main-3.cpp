@@ -39,14 +39,19 @@ T ComputeVolume(T a, T b, T c)
 
 int main()
 {
-	// Явное указание типа (версии функции)
-	cout << ComputeVolume<int>(34.5, 2.1f, 10) << "\n";
+	cout << ComputeVolume<int>(34, 2, 10) << "\n";  // Явное указание типа (версии функции)
+	cout << ComputeVolume<>(2.5, 3.0, 1.0) << "\n"; // Тип определяется автоматом
 
-	// Вот так теперь нельзя, так как типы аргументов
-	// разные; компилятор не может самостоятельно
-	// определить, какую версию функции сконструировать 
-	// по шаблону или использовать уже ранее созданную
-	// cout << ComputeVolume(34.5, 2.1f, 10) << "\n";
+	Dimension width("Ширина");
+	width.Value = 10.0f;
+
+	Dimension length("Длина");
+	length.Value = 2.0f;
+
+	Dimension height("Высота");
+	height.Value = 2.0f;
+
+	cout << ComputeVolume<Dimension>(width, length, height).Value << "\n";
 
 	return 0;
 }
