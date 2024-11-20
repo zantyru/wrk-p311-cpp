@@ -2,51 +2,63 @@
 using std::cout;
 
 
-class Dimension
+template<class T>
+class Array
 {
 public:
-	float Value;
+    Array(size_t length)
+        : _length{ length }
+        , _p_elements{ nullptr }
+    {
+        if (_length == 0) return;
 
-	Dimension(const std::string& name)
-		: Value{ 0.0f }
-		, _name{ name }
-	{ }
+        _p_elements = new T[_length];
+    }
 
-	const std::string &GetName() const
-	{
-		return _name;
-	}
+    Array(const Array &other)
+        : _length{ other._length }
+        , _p_elements{ nullptr }
+    {
+        if (_length == 0) return;
 
-	Dimension operator*(const Dimension& other) const
-	{
-		Dimension result("Результат");
-		result.Value = Value * other.Value;
+        _p_elements = new T[_length];
 
-		return *this;
-	}
+        // for (size_t n = 0; n < _length; n++)
+        // {
+        //     _p_elements[n] = other._p_elements[n];
+        // }
+    }
+
+    ~Array()
+    {
+        if (_length == 0) return;
+
+        delete[] _p_elements;
+        _p_elements = nullptr;
+        _lenght = 0;
+    }
+
+    const Array &operator=(const Array &other) const
+    {
+        if (this == &other) return *this;
+
+
+    }
+
+    size_t GetLength() const
+    {
+        return _length;
+    }
 
 private:
-	std::string _name;
+    size_t _length;
+    T *_p_elements;
 };
-
-
-template<class T>
-T ComputeVolume(T a, T b, T c)
-{
-	return a * b * c;
-}
 
 
 int main()
 {
-	// Явное указание типа (версии функции)
-	cout << ComputeVolume<int>(34.5, 2.1f, 10) << "\n";
+    
 
-	// Вот так теперь нельзя, так как типы аргументов
-	// разные; компилятор не может самостоятельно
-	// определить, какую версию функции сконструировать 
-	// по шаблону или использовать уже ранее созданную
-	// cout << ComputeVolume(34.5, 2.1f, 10) << "\n";
-
-	return 0;
+    return 0;
 }
