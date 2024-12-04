@@ -31,8 +31,18 @@ public:
         return true;
     }
 
+    bool IsEmpty() const
+    {
+        return _elementCount == 0;
+    }
+
+    bool IsFull() const
+    {
+        return _elementCount == SIZE;
+    }
+
 private:
-    const size_t SIZE = 12;
+    static const size_t SIZE = 12;
     T _elements[SIZE];
     size_t _elementCount;
 };
@@ -41,6 +51,20 @@ private:
 int main()
 {
     Stack<int> stackOfIntegers;
+
+    stackOfIntegers.Push(90);
+    stackOfIntegers.Push(-1);
+    stackOfIntegers.Push(5);
+    stackOfIntegers.Push(7);
+
+    while (!stackOfIntegers.IsEmpty())
+    {
+        int e{};
+        stackOfIntegers.Pop(&e);
+        cout << e << "  ";
+    }
+    
+    cout << '\n';
 
     return 0;
 }
