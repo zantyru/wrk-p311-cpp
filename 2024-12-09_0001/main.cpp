@@ -18,7 +18,7 @@ public:
     {
         if (IsFull()) return false;
 
-        if (_length != 0)
+        if (_length > 0)
         {
             _tail = (_MAX_LENGTH + _tail - 1) % _MAX_LENGTH;
         }
@@ -37,7 +37,7 @@ public:
         element = _elements[_head];
         --_length;
 
-        if (_length > 1)
+        if (_length > 0)
         {
             _head = (_MAX_LENGTH + _head - 1) % _MAX_LENGTH;
         }
