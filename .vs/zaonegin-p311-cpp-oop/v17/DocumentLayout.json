@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-10_0001\\main-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2025-02-10_0001\\main-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E8B3EC30-EFCB-4EBD-BC11-639A8AD84B7E}|2025-02-12_0001\\2025-02-12_0001.vcxproj|C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8B3EC30-EFCB-4EBD-BC11-639A8AD84B7E}|2025-02-12_0001\\2025-02-12_0001.vcxproj|solutionrelative:2025-02-12_0001\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-10_0001\\main-1-v2-std=c\u002B\u002B11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2025-02-10_0001\\main-1-v2-std=c\u002B\u002B11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main-1-v1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2025-02-12_0001\\main-1-v1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2025-02-12_0001\\main-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main-1-v2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2025-02-12_0001\\main-1-v2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main-2.cpp",
-              "DocumentMoniker": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-10_0001\\main-2.cpp",
-              "RelativeDocumentMoniker": "2025-02-10_0001\\main-2.cpp",
-              "ToolTip": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-10_0001\\main-2.cpp",
-              "RelativeToolTip": "2025-02-10_0001\\main-2.cpp",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAnwG0AAAATAAAAAAAAAA==",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main.cpp",
+              "RelativeDocumentMoniker": "2025-02-12_0001\\main.cpp",
+              "ToolTip": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main.cpp",
+              "RelativeToolTip": "2025-02-12_0001\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-10T15:17:34.154Z",
+              "WhenOpened": "2025-02-12T14:30:20.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main-2.cpp",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main-2.cpp",
+              "RelativeDocumentMoniker": "2025-02-12_0001\\main-2.cpp",
+              "ToolTip": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main-2.cpp",
+              "RelativeToolTip": "2025-02-12_0001\\main-2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T14:21:27.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main-1-v2.cpp",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main-1-v2.cpp",
+              "RelativeDocumentMoniker": "2025-02-12_0001\\main-1-v2.cpp",
+              "ToolTip": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main-1-v2.cpp",
+              "RelativeToolTip": "2025-02-12_0001\\main-1-v2.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T14:09:04.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main-1-v2-std=c\u002B\u002B11.cpp",
-              "DocumentMoniker": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-10_0001\\main-1-v2-std=c\u002B\u002B11.cpp",
-              "RelativeDocumentMoniker": "2025-02-10_0001\\main-1-v2-std=c\u002B\u002B11.cpp",
-              "ToolTip": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-10_0001\\main-1-v2-std=c\u002B\u002B11.cpp",
-              "RelativeToolTip": "2025-02-10_0001\\main-1-v2-std=c\u002B\u002B11.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADMAAAAfAAAAAAAAAA==",
+              "Title": "main-1-v1.cpp",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main-1-v1.cpp",
+              "RelativeDocumentMoniker": "2025-02-12_0001\\main-1-v1.cpp",
+              "ToolTip": "C:\\Users\\Student\\Documents\\ZaoneginEV_teacher\\DEV\\wrk-p311-cpp\\2025-02-12_0001\\main-1-v1.cpp",
+              "RelativeToolTip": "2025-02-12_0001\\main-1-v1.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-10T15:12:39.187Z",
+              "WhenOpened": "2025-02-12T13:41:23.823Z",
               "EditorCaption": ""
             }
           ]
